@@ -1,9 +1,9 @@
 import React from 'react'
-import "../Components/CSS/HomeScreen.css";
-import Nav from "./Nav.js";
-import Banner from "./Banner.js";
-import Row from "./Row.js"
-import requests from '../Requests';
+import Nav from "../Nav.js";
+import Banner from "../Banner.js";
+import Row from "../Row.js"
+import requests from '../../Requests';
+import "../screens/HomeScreen.css";
 
 function HomeScreen() {
   return (
@@ -24,7 +24,7 @@ function HomeScreen() {
         />
 
       <Row 
-        title='trending Now'
+        title='Trending Now'
         fetchUrl={requests.fetchTrending}
 
         />
