@@ -1,7 +1,7 @@
 .row{
     color: white;
-    margin-left: 20px;
-
+    background-color: black;
+    padding: 30px;
 }
 
 .row_posters{
@@ -24,8 +24,11 @@
 }
 
 .row_poster:hover{
-    transform: scale(1.08);
+    transform: scale(1.5);
     opacity: 1;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
 }
 
 .row_posterLarge{
