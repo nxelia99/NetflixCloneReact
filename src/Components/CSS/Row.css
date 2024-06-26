@@ -1,8 +1,6 @@
 .row{
     color: white;
     background-color: black;
-    margin-bottom: 35px;
-    margin-top: 20px;
 }
 
 h2{
@@ -19,12 +17,13 @@ h2{
 }
 
 .row_poster{
-    height: 150px;
+    
     object-fit: contain;
     margin-left: 50px;
     margin-right: 80px;
     width: 100%;
     transition: transform 450ms; 
+    max-height: 73px;
 }
 
 .row_posters::-webkit-scrollbar{
@@ -32,12 +31,13 @@ h2{
 }
 
 .row_poster:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
     opacity: 1;
 }
 
 .row_posterLarge{
-    height: 250px;
+    height: 180px;
+    min-height: 180px;
 }
 
 
@@ -56,4 +56,6 @@ i{
     text-align: center;
     width: 100%;
 }
+
+
 
